@@ -1,20 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <style>
-      @import "./src/style.css";
-    </style>
-    <title>JSDev</title>
-  </head>
-  <body>
-    <h1>Alright. You're set.</h1>
-      <h2 class="tintedBlackLeft">Now build something amazing!</h2>
-      <p>JS in FM is amazing</p>
-    <button type="button">Click Me!</button>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Gaskets Rock!</title>
 
-    <script type="module">
-      import "./src/index.js";
-    </script>
-  </body>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #606060;
+            background-color: #ffffff; /* Ensures reply emails have a white background */
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #eeeeee; /* Keeps gray background inside the original email */
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+            min-height: 500px; /* Ensures proper spacing */
+        }
+        .header {
+            text-align: center;
+            background-color: #ffffff; /* Set header background to white */
+            padding: 20px 0;
+        }
+        .header img {
+            max-width: 322px; /* Maintains original size */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .content {
+            background-color: #ffffff; /* Ensures text area is white */
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .content p {
+            line-height: 1.5;
+            font-size: 16px;
+        }
+        .footer {
+            background-color: #3f5b5c;
+            background-image: url('https://mcusercontent.com/4dd6587da5c527651d1f24c08/images/3913ee00-e246-750f-750a-af554d4833d9.png');
+            background-size: cover;
+            text-align: center;
+            padding: 30px;
+            color: #ffffff;
+        }
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+        }
+        .footer p {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .hidden-separator {
+            border-bottom: 1px solid transparent; /* Helps separate original email in replies */
+            margin: 20px 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <img src="https://mcusercontent.com/4dd6587da5c527651d1f24c08/images/13316e36-56d5-4e00-bef0-5516221dfbe2.png" 
+                 alt="Gaskets Rock Logo">
+        </div>
+
+        <div class="content">
+            <div style="text-align: center; margin: 20px 0;">
+                <img src="https://mcusercontent.com/4dd6587da5c527651d1f24c08/images/4f181ba2-467e-44ea-bb28-2560dbd4e646.png" 
+                     alt="Gaskets Rock Additional Image">
+            </div>
+            <p>Hi [Customer's Name],</p>
+            <p>I hope this email finds you well. I wanted to followup on quote #[Quote Number] from [date the quote was sent] to ensure you received it and see if you had any questions or needed any further clarification.</p>
+            <p>We’re ready to proceed as soon as we receive your approval, and we want to make sure everything is aligned with your expectations. Click the link below to view and approve the quote.</p>
+            <br>
+            <div style="text-align: center; margin: 20px 0;">
+                <a href="[Quote URL]" style="background-color: #AEB946; color: #291E1E; padding: 12px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">View and Approve Quote</a>
+            </div>
+            <br>
+        </div>
+
+        <!-- Hidden separator for reply formatting -->
+        <div class="hidden-separator"></div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/GasketsRock/" target="_blank">
+                    <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png" alt="Facebook">
+                </a>
+                <a href="http://gasketsrock.com" target="_blank">
+                    <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-link-48.png" alt="Website">
+                </a>
+                <a href="https://www.linkedin.com/company/gaskets-rock-international/" target="_blank">
+                    <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-linkedin-48.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.youtube.com/channel/UCTu9IuB2B5dTOi8JQ-lMvKg" target="_blank">
+                    <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-youtube-48.png" alt="YouTube">
+                </a>
+            </div>
+            <p>Gaskets Rock International · 409 Parkway View Dr · Pittsburgh, PA 15205 · USA</p>
+        </div>
+    </div>
+</body>
 </html>
